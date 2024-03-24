@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Quiz</title>
+</head>
+
+<body>
+  <section class="fundo">
+    <img src="image/img6.jpg" class="school">
+  </section>
+
+  <div class="quiz-container" id="quizContainer">
+    <div class="quiz">
+      <a href="../index.html"><img src="image/back.svg" alt="Imagem" class="back"></a>
+      <div class="quiz-header">
+        <h1 class="quiz-title">SÓCRATES</h1> <p class="pontuacao" id="score"> 0/100  </p>
+      </div>
+      <div id="question" class="question"></div>
+      <div class="flex">
+        <div id="options" class="options">
+        </div>
+        <img src="image/question.svg" class="imgQuestion">
+      </div>
+      <br>
+      <button id="nextBtn" class="next-btn" onclick="trocaDiv('quizContainer', 'containerBlack')">Próxima
+        Pergunta</button>
+      <div class="progress-container" style="display: none;">
+        <div class="progress-bar" id="progressBar1"></div>
+        <div class="progress-bar" id="progressBar2"></div>
+        <div class="progress-bar" id="progressBar3"></div>
+        <div class="progress-bar" id="progressBar4"></div>
+        <div class="progress-bar" id="progressBar5"></div>
+        <div class="progress-bar" id="progressBar6"></div>
+        <div class="progress-bar" id="progressBar7"></div>
+        <div class="progress-bar" id="progressBar8"></div>
+        <div class="progress-bar" id="progressBar9"></div>
+        <div class="progress-bar" id="progressBar10"></div>
+      </div>
+
+      <center class="helpContainer" id="helpContainer">
+        <div id="word"></div>
+        <div id="help"></div>
+      </center>
+    </div>
+  </div>
+
+
+  <div class="containerBlack" id="containerBlack">
+    <div class="quizBlack">
+      <h1 class="titleBlack">QUIZ CONCLUÍDO</h1>
+      <figure id="container">
+        <img src="image/pontos.png" class="imgPontos">
+          <p id="pontuacao" className="score-quiz">  </p>
+      </figure>
+      <div id="question" class="question"></div>
+      <div id="options" class="options"></div>
+      <br>
+      <div class="flex-button">
+        <a href="../question/question.html">
+          <button class="button"> Reiniciar </button>
+        </a>
+        <a href="../index.html"><button class="button"> Home </button></a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
