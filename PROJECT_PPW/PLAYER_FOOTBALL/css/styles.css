@@ -24,7 +24,7 @@ body {
 
 .gradient{
   width: 75%;
-  height: 753px;
+  height: 100%;
   /*background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));*/
   /* height: 100%; */
   background: linear-gradient(95deg, #000000e3, #000000cc, #000000ba, #000000b0, #25222200, #25222200);
