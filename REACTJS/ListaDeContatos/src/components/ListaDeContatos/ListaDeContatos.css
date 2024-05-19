@@ -1,0 +1,45 @@
+/* ListaDeContatos.css */
+
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-nome,
+  .input-telefone {
+    padding: 5px;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .btn-adicionar {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contatos-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contato-item {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f9f9f9;
+  }
+  
